@@ -1,0 +1,50 @@
+[
+  {
+    "key": "book_beiping",
+    "prompt": "Use case historical-scene. ONE wide 16:9 explanatory illustration for inside a Chinese history book. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, clear foreground action. Muted blue-gray and earth brown, natural light. Period-accurate 1930s China. No text, writing, numbers, captions, watermark, blood, modern objects. Interpretive teaching art, not photograph. No identifiable portrait. December 9 1935 Beijing student patriotic movement. Cold winter street outside an old Beijing city gate, a group of Chinese male and female students in 1930s winter coats and scarves peacefully marching together carrying COMPLETELY BLANK cloth banners. Foreground student addressing fellow students, concerned yet determined faces, period buildings and winter bare trees. Focus on students expressing national salvation demands. No negotiating generals, no Xi'an room, no modern flags, no printed signs.",
+    "path": "generated_images/exec-da29e313-2cd7-44dd-9b77-aade37a1dd13.png",
+    "event": "一二·九运动",
+    "file": "earth_assets/book_images/event_beiping.webp",
+    "original": "earth_assets/book_images/event_beiping.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "book_shanghai",
+    "prompt": "Use case historical-scene. ONE wide 16:9 explanatory illustration for inside a Chinese history book. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, clear foreground action. Muted blue-gray and earth brown, natural light. Period-accurate 1930s China. No text, writing, numbers, captions, watermark, blood, modern objects. Interpretive teaching art, not photograph. No identifiable portrait. Shanghai campaign August-November 1937. A clear instructional view of Chinese defenders behind sandbags in a damaged brick warehouse by a Shanghai creek; National Revolutionary Army soldiers in plain gray-blue uniforms and simple helmets coordinate defense, period industrial buildings and a distant 1930s Shanghai waterfront silhouette through haze. One civilian carrying a supply box in midground. Explains urban defensive terrain. No Nanjing city wall or massacre refuge scene, no modern skyline or medical emblems.",
+    "path": "generated_images/exec-26b4afc6-c29a-4339-a3f0-3c405446eca1.png",
+    "event": "淞沪会战",
+    "file": "earth_assets/book_images/event_shanghai.webp",
+    "original": "earth_assets/book_images/event_shanghai.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "book_taierzhuang",
+    "prompt": "Use case historical-scene. ONE wide 16:9 explanatory illustration for inside a Chinese history book. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, clear foreground action. Muted blue-gray and earth brown, natural light. Period-accurate 1930s China. No text, writing, numbers, captions, watermark, blood, modern objects. Interpretive teaching art, not photograph. No identifiable portrait. Taierzhuang campaign spring 1938. Elevated oblique view of a northern Chinese canal town, canal and small stone bridge forming a clear spatial path through brick houses. Foreground Chinese National Revolutionary Army soldiers in period gray-blue uniforms discussing defensive positions behind a low damaged courtyard wall, unlettered folded paper on crate; distant smoke, no graphic combat. Explain canal, bridge, streets and coordination. No mountain road ambush, no modern memorial, no planes.",
+    "path": "generated_images/exec-a0f60149-9425-49e4-be10-f72a8552bc00.png",
+    "event": "台儿庄大捷",
+    "file": "earth_assets/book_images/event_taierzhuang.webp",
+    "original": "earth_assets/book_images/event_taierzhuang.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "book_wuhan",
+    "prompt": "Use case historical-scene. ONE wide 16:9 explanatory illustration for inside a Chinese history book. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, clear foreground action. Muted blue-gray and earth brown, natural light. Period-accurate 1930s China. No text, writing, numbers, captions, watermark, blood, modern objects. Interpretive teaching art, not photograph. No identifiable portrait. Wuhan campaign June-October 1938. Focus on Chinese civilians and soldiers in 1930s clothes and uniforms unloading plain wooden supply crates from a small river steamer at a Yangtze wharf near Wuhan; a few defenders carry supplies toward sandbag positions. Broad river, low brick warehouses, humid summer haze, distant smoke. Show river transport supporting a large regional campaign. No Allied personnel, no cargo aircraft, no southwest mountains, no modern bridges, no Red Cross emblems.",
+    "path": "generated_images/exec-afa48f66-0ca6-4882-9a32-606be540b85f.png",
+    "event": "武汉会战",
+    "file": "earth_assets/book_images/event_wuhan.webp",
+    "original": "earth_assets/book_images/event_wuhan.png",
+    "size": [
+      1672,
+      941
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "shenyang",
+    "model": "shenyang",
+    "sourceChapter": 0,
+    "name": "九一八事变",
+    "years": "1931.09.18",
+    "place": "沈阳",
+    "art": 0,
+    "bookArt": 0,
+    "summary": "九一八事变 · 沈阳"
+  },
+  {
+    "id": "beiping",
+    "model": "beiping",
+    "sourceChapter": 1,
+    "name": "一二·九运动",
+    "years": "1935.12.09",
+    "place": "北京",
+    "art": 1,
+    "bookArt": 1,
+    "summary": "一二·九运动 · 北京",
+    "bookFile": "event_beiping.webp"
+  },
+  {
+    "id": "xian",
+    "model": "xian",
+    "sourceChapter": 1,
+    "name": "西安事变",
+    "years": "1936.12.12",
+    "place": "西安",
+    "art": 1,
+    "bookArt": 1,
+    "summary": "西安事变 · 西安",
+    "chapterFile": "event_xian.webp"
+  },
+  {
+    "id": "lugou",
+    "model": "lugou",
+    "sourceChapter": 2,
+    "name": "七七事变",
+    "years": "1937.07.07",
+    "place": "北京·丰台",
+    "art": 2,
+    "bookArt": 2,
+    "summary": "七七事变 · 北京·丰台"
+  },
+  {
+    "id": "shanghai",
+    "model": "shanghai",
+    "sourceChapter": 3,
+    "name": "淞沪会战",
+    "years": "1937.08—11",
+    "place": "上海",
+    "art": 3,
+    "bookArt": 3,
+    "summary": "淞沪会战 · 上海",
+    "bookFile": "event_shanghai.webp"
+  },
+  {
+    "id": "pingxing",
+    "model": "pingxing",
+    "sourceChapter": 4,
+    "name": "平型关大捷",
+    "years": "1937.09.25",
+    "place": "大同·灵丘",
+    "art": 4,
+    "bookArt": 4,
+    "summary": "平型关大捷 · 大同·灵丘"
+  },
+  {
+    "id": "nanjing",
+    "model": "nanjing",
+    "sourceChapter": 3,
+    "name": "南京大屠杀",
+    "years": "1937.12起",
+    "place": "南京",
+    "art": 3,
+    "bookArt": 3,
+    "summary": "南京大屠杀 · 南京",
+    "chapterFile": "event_nanjing.webp"
+  },
+  {
+    "id": "taierzhuang",
+    "model": "taierzhuang",
+    "sourceChapter": 4,
+    "name": "台儿庄大捷",
+    "years": "1938.03—04",
+    "place": "枣庄·台儿庄",
+    "art": 4,
+    "bookArt": 4,
+    "summary": "台儿庄大捷 · 枣庄·台儿庄",
+    "chapterFile": "event_taierzhuang.webp",
+    "bookFile": "event_taierzhuang.webp"
+  },
+  {
+    "id": "yanan",
+    "model": "yanan",
+    "sourceChapter": 5,
+    "name": "《论持久战》讲演",
+    "years": "1938.05—06",
+    "place": "延安",
+    "art": 5,
+    "bookArt": 5,
+    "summary": "《论持久战》讲演 · 延安"
+  },
+  {
+    "id": "wuhan",
+    "model": "wuhan",
+    "sourceChapter": 4,
+    "name": "武汉会战",
+    "years": "1938.06—10",
+    "place": "武汉",
+    "art": 4,
+    "bookArt": 4,
+    "summary": "武汉会战 · 武汉",
+    "chapterFile": "event_wuhan.webp",
+    "bookFile": "event_wuhan.webp"
+  },
+  {
+    "id": "nanjing_surrender",
+    "model": "nanjing",
+    "sourceChapter": 7,
+    "name": "中国战区南京受降",
+    "years": "1945.09.09",
+    "place": "南京",
+    "art": 7,
+    "bookArt": 7,
+    "summary": "中国战区南京受降 · 南京"
+  }
+]

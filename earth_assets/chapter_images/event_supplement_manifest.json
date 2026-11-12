@@ -1,0 +1,50 @@
+[
+  {
+    "key": "card_xian",
+    "prompt": "Use case historical-scene. Generate ONE wide landscape 16:9 historical narrative illustration, museum educational quality, period-accurate 1930s China. Restrained slate blue and warm sepia, realistic painterly brushwork, dignified solemn mood, clear readable composition at thumbnail size. No text, letters, numbers, captions, watermark, modern objects, graphic injuries or blood. Interpretive art, not an archival photo. December 1936 Xi'an Incident PEACEFUL RESOLUTION. Interior of a traditional Xi'an brick courtyard meeting room, Chinese civilian delegates in dark period tunic suits and Chinese military officers in gray-green uniforms quietly negotiating across a wooden table with unlettered papers. Winter daylight through wooden lattice window, old Xi'an courtyard visible outside. Calm diplomatic tension, no students or street protest, no guns being aimed, no recognizable portraits. Focus solely on peaceful negotiation.",
+    "path": "generated_images/exec-b2727f85-206b-460e-8b73-69ad527b4f2d.png",
+    "event": "西安事变",
+    "file": "earth_assets/chapter_images/event_xian.webp",
+    "original": "earth_assets/chapter_images/event_xian.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "card_nanjing",
+    "prompt": "Use case historical-scene. Generate ONE wide landscape 16:9 historical narrative illustration, museum educational quality, period-accurate 1930s China. Restrained slate blue and warm sepia, realistic painterly brushwork, dignified solemn mood, clear readable composition at thumbnail size. No text, letters, numbers, captions, watermark, modern objects, graphic injuries or blood. Interpretive art, not an archival photo. Nanjing massacre historical remembrance, December 1937. Humane non-graphic scene of civilian suffering and relief: displaced Chinese families in plain winter 1930s clothes carrying bundles, a volunteer helping an elderly woman and child into a modest civilian refuge near old Nanjing brick city wall. Distant ruined street and smoke. Solemn grief and mutual aid, no gore, no bodies, no soldiers as heroes, no celebration, no Shanghai skyline. Focus ONLY Nanjing civilian catastrophe.",
+    "path": "generated_images/exec-f41cdc8e-1f6b-4760-b645-b316b60de3a5.png",
+    "event": "南京大屠杀",
+    "file": "earth_assets/chapter_images/event_nanjing.webp",
+    "original": "earth_assets/chapter_images/event_nanjing.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "card_taierzhuang",
+    "prompt": "Use case historical-scene. Generate ONE wide landscape 16:9 historical narrative illustration, museum educational quality, period-accurate 1930s China. Restrained slate blue and warm sepia, realistic painterly brushwork, dignified solemn mood, clear readable composition at thumbnail size. No text, letters, numbers, captions, watermark, modern objects, graphic injuries or blood. Interpretive art, not an archival photo. Taierzhuang battle, spring 1938. Chinese National Revolutionary Army defenders in period gray-blue uniforms and simple helmets sheltering behind damaged brick walls in a northern Chinese canal town; canal with a stone bridge, ruined tiled roofs and narrow lanes, distant smoke. Emphasize canal-town defense and coordinated resistance. Rifles held defensively, no graphic combat, no northern mountain ambush montage, no modern memorial or tower. Single coherent Taierzhuang setting.",
+    "path": "generated_images/exec-c542aa50-4b98-4098-beff-3d0d0bd357e6.png",
+    "event": "台儿庄大捷",
+    "file": "earth_assets/chapter_images/event_taierzhuang.webp",
+    "original": "earth_assets/chapter_images/event_taierzhuang.png",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "card_wuhan",
+    "prompt": "Use case historical-scene. Generate ONE wide landscape 16:9 historical narrative illustration, museum educational quality, period-accurate 1930s China. Restrained slate blue and warm sepia, realistic painterly brushwork, dignified solemn mood, clear readable composition at thumbnail size. No text, letters, numbers, captions, watermark, modern objects, graphic injuries or blood. Interpretive art, not an archival photo. Wuhan campaign June-October 1938. Chinese National Revolutionary Army soldiers preparing defenses on a wide Yangtze river embankment near Wuhan, sandbag positions, civilian workers carrying supply crates, river steamships and low period city buildings with distant smoke, humid summer haze. Chinese river city and broad campaign logistics, no mountains, no Allied aviators, no American cargo planes, no post-1940s equipment, no modern bridges or skyline. Single unified Wuhan scene.",
+    "path": "generated_images/exec-31e10484-93e5-41d8-a301-fb690bd56ac7.png",
+    "event": "武汉会战",
+    "file": "earth_assets/chapter_images/event_wuhan.webp",
+    "original": "earth_assets/chapter_images/event_wuhan.png",
+    "size": [
+      1672,
+      941
+    ]
+  }
+]

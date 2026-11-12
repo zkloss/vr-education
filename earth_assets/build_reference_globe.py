@@ -1,0 +1,36 @@
+from pathlib import Path
+import shutil
+root=Path(__file__).resolve().parents[1];assets=root/'earth_assets'
+backup=assets/'南京精修_参考改版前.html'
+if not backup.exists():shutil.copy2(root/'地球漫游_南京精修版.html',backup)
+s=backup.read_text(encoding='utf-8')
+s=s.replace('<title>巴黎飞南京 · 地球精修版</title>','<title>巴黎飞南京 · 柔光地球</title>')
+s=s.replace('borders:true,provinces:true,clouds:true,water:true','borders:false,provinces:false,clouds:true,water:true')
+s=s.replace('distance:2.4,arrived:false','distance:3.08,arrived:false')
+s=s.replace('state.distance=2.4+.65*Math.sin(Math.PI*u)','state.distance=3.08+.25*Math.sin(Math.PI*u)')
+s=s.replace('camera.position.copy(pos(state.lat,state.lon,state.distance))','camera.position.copy(pos(state.lat,state.lon,state.distance/Math.min(camera.aspect,1)))')
+s=s.replace('renderer.setClearColor(0x02050b)','renderer.setClearColor(0x080c10)')
+s=s.replace('renderer.toneMappingExposure=1.02','renderer.toneMappingExposure=1.12')
+s=s.replace('new THREE.Vector2(.3,.3)','new THREE.Vector2(.18,.18)')
+s=s.replace('new THREE.AmbientLight(0x8ba8ca,.4)','new THREE.AmbientLight(0x9eb9d2,.6)')
+s=s.replace('new THREE.DirectionalLight(0xfff7ed,2.05)','new THREE.DirectionalLight(0xf5f8ff,2.15)')
+s=s.replace('state.lon-44,10','state.lon-35,10')
+s=s.replace('vec3(.009,.035,.095),vec3(.012,.062,.13)','vec3(.014,.066,.16),vec3(.025,.1,.21)')
+s=s.replace('diffuseColor.rgb,1.05','diffuseColor.rgb,.96').replace('vec3(.97,1.0,.97)','vec3(.94,1.035,1.03)')
+s=s.replace('vec3(.055,.19,.34),horizon*.24','vec3(.13,.3,.4),horizon*.32')
+s=s.replace('shape*.46','shape*.4')
+s=s.replace('for(let i=0;i<2200;i++)','for(let i=0;i<600;i++)').replace('opacity:.8,sizeAttenuation:true','opacity:.22,sizeAttenuation:true')
+s=s.replace('1.025+.13*Math.sin(Math.PI*t)','1.014+.045*Math.sin(Math.PI*t)')
+s=s.replace('color:0xffd79f,transparent:true,opacity:.88','color:0xc8edf3,transparent:true,opacity:.8')
+start=s.index(' atmosphere=new THREE.Mesh(');end=s.index('scene.add(atmosphere);',start)+len('scene.add(atmosphere);')
+s=s[:start]+''' atmosphere=new THREE.Mesh(new THREE.SphereGeometry(1.12,128,96),new THREE.ShaderMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{uSun:{value:new THREE.Vector3(1,1,1)}},vertexShader:'varying vec3 vP;void main(){vP=(modelMatrix*vec4(position,1.0)).xyz;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}',fragmentShader:'varying vec3 vP;uniform vec3 uSun;void main(){vec3 ray=normalize(vP-cameraPosition);float b=length(cross(cameraPosition,ray));float density=exp(-max(b-1.0,0.0)*30.0)*(1.0-smoothstep(1.06,1.12,b));float light=.55+.45*max(dot(normalize(vP),normalize(uSun)),0.0);vec3 color=vec3(.17,.47,.56);gl_FragColor=vec4(color,density*light*.48);}'}));scene.add(atmosphere);'''+s[end:]
+extra=Path('reference_globe.js').read_text(encoding='utf-8')
+s=s.replace('const loader=new THREE.TextureLoader();',extra+'\nconst loader=new THREE.TextureLoader();')
+s=s.replace('updateFlight();renderer.render(scene,camera);','updateFlight();updateReferenceGlow();renderer.render(scene,camera);')
+css='''body{background:#080c10}.cityTag{border-left:1px solid #d9f6fc60;background:linear-gradient(90deg,#06121a65,transparent);padding:7px 10px}.cityTag strong{font-size:14px;color:#e8f8fa}.cityTag span{font-size:9px;color:#a9c4d0}.flightNote{bottom:5vh}.flightTitle{font-size:20px}.flightTrack{background:#c9e6e71a}.flightTrack i{background:#bde8eb}.flightActions button{border-color:#a9c4cd22;background:#07111b50}'''
+s=s.replace('</style>',css+'</style>')
+out=root/'地球漫游_柔光参考版.html';out.write_text(s,encoding='utf-8')
+for name in ['抗战历史沉浸式课堂.html','地球漫游_南京精修版.html','地球漫游_巴黎飞南京版.html','地球漫游_法国飞中国版.html']:shutil.copy2(out,root/name)
+shutil.copy2(out,Path.cwd()/out.name)
+for name in ['reference_globe.js','build_reference_globe.py']:shutil.copy2(name,assets/name)
+print('Built reference globe',out.stat().st_size)

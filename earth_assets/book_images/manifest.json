@@ -1,0 +1,43 @@
+[
+  {
+    "file": "01.webp",
+    "title": "东北的警报",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. September 18 1931 night near Liutiaohu, Shenyang. Focus on a small sabotaged railway section in foreground, displaced rail and gravel clearly legible; beyond it steam railway and barracks with distant smoke. A few silhouetted Japanese soldiers far away, no closeup identifiable persons. Explain a railway provocation followed by attack, small local damage not a giant explosion. No winter snow."
+  },
+  {
+    "file": "02.webp",
+    "title": "从救亡到团结",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. December 1936 peaceful resolution of Xi'an Incident. Focus on a wooden negotiation table in a modest period Xi'an room: civilian-suited mediator and Chinese military officers listening and discussing an unlettered agreement; calm dialogue and restrained gestures, no weapons pointing, no famous identifiable faces. Old brick courtyard visible outside. This represents negotiation, not the initial detention."
+  },
+  {
+    "file": "03.webp",
+    "title": "全民族抗战开始",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. July 1937 defense of Wanping at Lugou Bridge. Foreground two Chinese 29th Army defenders in gray-blue uniforms and simple helmets behind low sandbags guarding an entrance; distinctive stone lion bridge balustrade in middle ground and Wanping brick wall farther away. Rifles carried low, distant smoke, collective defensive action, no modern skyline."
+  },
+  {
+    "file": "04.webp",
+    "title": "上海与南京",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. 1937 Nanjing civilian rescue and evidence. A relief volunteer in a plain 1930s coat at a modest wooden desk writing an unlettered register, a displaced mother and child receiving a blanket, brick city wall through the window. Solemn humane wartime refuge setting, no gore, no modern memorial. Focus on relief records and civilian experience as historical evidence."
+  },
+  {
+    "file": "05.webp",
+    "title": "两个战场",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. September 1937 Pingxingguan ambush. High oblique view of a narrow winding road in northern China mountain ravine; a small Japanese period truck convoy down below; Chinese Eighth Route Army soldiers in gray cloth caps concealed on ridge observing and preparing an ambush, no firing graphic combat. Landscape explains terrain and transport line advantage. No modern vehicles or monument.",
+    "correction": "去除车队上医疗标识，采用无标识军用运输车辆。"
+  },
+  {
+    "file": "06.webp",
+    "title": "持久抗战",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. May–June 1938 Yan'an lectures on protracted war. Focus on a simple room near loess cave dwellings: Chinese lecturer seen from behind beside a completely blank board, a circle of soldiers and civilians taking notes on plain paper, daylight from doorway. No identifiable portrait, no readable lettering. Explain strategic discussion and organized learning rather than only farming."
+  },
+  {
+    "file": "07.webp",
+    "title": "全民族与世界战场",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. 1942–1944 international wartime supply cooperation in China's southwest. Focus on hands of Chinese and Allied logistics personnel jointly lifting a heavy wooden supply crate from a 1940s cargo truck on a mountain road, two Chinese workers receiving it; a small propeller cargo plane over distant ridges. No labels or insignia needing readable text. Explain international supply and cooperation."
+  },
+  {
+    "file": "08.webp",
+    "title": "走向胜利",
+    "prompt": "Use case historical-scene. ONE wide 16:9 editorial illustration for the inside of a Chinese history book, a focused explanatory event scene with a clear foreground action. Restrained realistic watercolor and fine ink on warm ivory paper, softly feathered edges, documentary educational tone, readable composition, blue-gray and earth brown with natural muted light. Not a photograph. No text, typography, numbers, watermark, blood, modern objects. Period-accurate 1930s–1940s Chinese clothing and equipment, dignified treatment. Avoid resembling a movie poster or generalized marching scene. September 9 1945 Chinese theater surrender ceremony, Nanjing. Focus on a historical surrender document represented by blank paper and period fountain pen on a long wooden desk, Chinese receiving officers seated behind it and a Japanese representative respectfully standing across in the middle distance. Eye-level table composition with crisp document/pen foreground, quiet solemn hall, olive military uniforms, no modern objects or invented flags, not a celebration poster."
+  }
+]

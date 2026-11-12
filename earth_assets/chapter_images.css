@@ -1,0 +1,56 @@
+
+.historySidebar .chapterMedia{display:flex;flex-direction:column;justify-content:center;gap:7px;overflow:visible;min-height:160px;flex:1 0 160px;margin:2px 0 8px}
+#nextScene .chapterPicture{position:relative;inset:auto;display:block;flex:0 1 auto;width:100%;min-height:60px;max-height:260px;aspect-ratio:16/9;padding:0;overflow:hidden;border:1px solid #b6a17760;border-radius:5px;background:#0c1821;cursor:zoom-in;box-shadow:0 6px 20px #0004}
+.chapterMedia .chapterPicture img{width:100%;height:100%;max-height:none;object-fit:cover;display:block}
+.chapterPicture span{position:absolute;right:7px;bottom:6px;padding:3px 6px;background:#07121ec9;border-radius:3px;color:#f0e8d6;font-size:9px}
+.chapterPicture:focus-visible{outline:2px solid #e4cc93;outline-offset:3px}
+.chapterCaption strong{display:block;font-size:12px;font-weight:500;color:#e2d7ba;line-height:1.4}.chapterCaption p{font-size:10px;line-height:1.5;color:#b7c5c8;margin:3px 0}.chapterCaption small{font-size:8px;color:#8f9da4;letter-spacing:.5px}
+.chapterArtDialog{box-sizing:border-box;width:min(1100px,94vw);max-height:94vh;padding:18px;background:#0c1823;color:#e9e4d6;border:1px solid #9eabac66;border-radius:8px;overflow:auto;box-shadow:0 24px 90px #000a}
+.chapterArtDialog::backdrop{background:#02080edb;backdrop-filter:blur(5px)}
+.chapterArtDialog header{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:12px}.chapterArtDialog header b{font:500 21px "SimSun",serif;letter-spacing:1px}.chapterArtDialog p{color:#aebfc5;font-size:12px;margin:6px 0 0}.chapterArtDialog button{background:#233844;color:#ece3cf;border:1px solid #82969888;padding:8px 13px;border-radius:4px;cursor:pointer;white-space:nowrap}.chapterArtDialog>img{display:block;width:100%;max-height:72vh;object-fit:contain;background:#070f17}.chapterArtDialog footer{font-size:11px;color:#98a9b0;margin-top:11px;line-height:1.5}
+@media(max-height:800px){.historySidebar .chapterMedia{gap:5px;min-height:160px;flex-basis:160px}.chapterCaption p{font-size:9px;margin:2px 0}.chapterCaption strong{font-size:11px}}
+@media(max-height:650px){.historySidebar{overflow:auto}.historySidebar .chapterMedia{flex:0 0 auto;min-height:185px}.historySidebar .chapterPicture{flex-shrink:0}}
+@media(prefers-reduced-motion:reduce){.chapterPicture{transition:none}}
+
+/* An event thumbnail belongs to each chapter entry. */
+#nextScene .chapterRow{display:grid;grid-template-columns:14px 42px minmax(0,1fr) auto;gap:6px;min-height:32px;padding:3px 7px;align-items:center}
+.chapterRow .chapterThumb{display:block;width:42px;height:24px;object-fit:cover;border:1px solid #a8a17e55;border-radius:2px;box-sizing:border-box;opacity:.8}
+.chapterRow[aria-pressed=true] .chapterThumb{opacity:1;border-color:#e0c68b}
+#nextScene .chapterRow strong{font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;letter-spacing:0}
+#nextScene .chapterRow time{margin-left:0;font-size:9px;letter-spacing:0}
+@media(max-height:800px){#nextScene .chapterRow{min-height:28px;padding:2px 7px}}
+@media(max-width:700px){#nextScene .chapterRow{grid-template-columns:12px 34px minmax(0,1fr);gap:5px;padding:2px 4px}.chapterRow .chapterThumb{width:34px;height:22px}#nextScene .chapterRow strong{font-size:10px}#nextScene .chapterRow time{display:none}}
+
+.chapterCaption{position:relative;padding-bottom:33px}
+#nextScene .chapterEnter{position:absolute;inset:auto 0 0 auto;margin:0;padding:6px 14px;border:1px solid #c4ac7488;border-radius:3px;background:#33433d;color:#f3e5bd;font:11px "Microsoft YaHei",sans-serif;cursor:pointer;line-height:1.4}
+#nextScene .chapterEnter:hover{background:#4d5c4b;border-color:#e5ca88}
+.historySidebar .chapterMedia{min-height:175px;flex-basis:175px}
+@media(max-height:800px){.historySidebar .chapterMedia{min-height:175px;flex-basis:175px}.chapterCaption{padding-bottom:29px}#nextScene .chapterEnter{padding:4px 12px}}
+
+/* Event directory and numbered markers share one data source. */
+.historySidebar .chapterList{flex:0 1 255px;min-height:130px;max-height:35vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#8e9273 #10222c}
+#nextScene .chapterRow{grid-template-columns:18px 34px minmax(0,1fr) auto;gap:5px}
+.chapterRow .chapterThumb{width:34px;height:22px}
+#nextScene .chapterRow strong{font-size:11px}
+#nextScene .atlasNode .cityIcon{font-size:10px;min-width:16px}
+#nextScene .atlasNode .eventLabel{display:flex;flex-direction:column;gap:3px}
+#nextScene .atlasNode .eventLabel small{display:block;margin:0;font-size:10px;letter-spacing:0;color:#c4d0ce}
+#nextScene .atlasNode strong,#nextScene .atlasNode.selected strong{font-size:13px}
+.historySidebar .chapterMedia{flex:1 0 175px}
+@media(max-height:650px){.historySidebar .chapterList{flex:0 0 160px;max-height:160px}}
+
+/* Titles and complete dates have separate rows and never share the scrollbar. */
+.historySidebar .chapterList{min-width:0;scrollbar-gutter:stable;overflow-x:hidden;padding-right:6px;box-sizing:border-box}
+#nextScene .chapterRow{width:100%;box-sizing:border-box;min-width:0;flex:0 0 auto;display:grid;grid-template-columns:20px 36px minmax(0,1fr);grid-template-rows:auto auto;column-gap:7px;row-gap:2px;min-height:42px;padding:5px 8px}
+#nextScene .chapterRow .chapterNum{grid-column:1;grid-row:1 / 3;align-self:center}
+#nextScene .chapterRow .chapterThumb{grid-column:2;grid-row:1 / 3;align-self:center;width:36px;height:25px}
+#nextScene .chapterRow strong{grid-column:3;grid-row:1;min-width:0;white-space:normal;overflow:visible;text-overflow:clip;font-size:11px;line-height:1.45}
+#nextScene .chapterRow time{grid-column:3;grid-row:2;display:block;min-width:0;justify-self:start;margin:0;padding:0;white-space:nowrap;font-size:10px;line-height:1.4;color:#bcc9ca;font-variant-numeric:tabular-nums}
+.modelSiteBadge{display:inline-block;font-size:9px;line-height:1.5;color:#e1cba4;border:1px solid #c6aa6e66;border-radius:3px;padding:2px 5px;margin:0 0 5px}
+.modelSiteBadge[hidden]{display:none}
+@media(max-width:700px){#nextScene .chapterRow{grid-template-columns:17px 30px minmax(0,1fr);column-gap:5px;padding:4px}#nextScene .chapterRow .chapterThumb{width:30px;height:23px}#nextScene .chapterRow strong{font-size:10px}#nextScene .chapterRow time{display:block;font-size:9px}}
+
+/* Keep the card's space stable while revealing or dismissing it. */
+.historySidebar .chapterMedia{opacity:0;visibility:hidden;transform:translateX(-16px) translateY(5px) scale(.985);pointer-events:none;transition:opacity .23s ease,transform .30s cubic-bezier(.2,.7,.25,1),visibility 0s linear .30s;will-change:opacity,transform}
+.historySidebar .chapterMedia.eventOpen{opacity:1;visibility:visible;transform:translateX(0) translateY(0) scale(1);pointer-events:auto;transition:opacity .28s ease,transform .34s cubic-bezier(.2,.7,.25,1),visibility 0s}
+@media(prefers-reduced-motion:reduce){.historySidebar .chapterMedia,.historySidebar .chapterMedia.eventOpen{transition:none;transform:none}}
