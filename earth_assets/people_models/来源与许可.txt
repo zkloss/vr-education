@@ -1,0 +1,1 @@
+人体基础网格与亚洲男女形态：MakeHuman Community，CC0。来源 https://github.com/makehumancommunity/makehuman/tree/master/makehuman/data 。服装、头发、眼睛与道具在本项目重建；人物为教学角色，不对应具体历史人物。
